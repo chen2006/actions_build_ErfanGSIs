@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_064_all_2009080056_338a836209c54a7e.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://ip370798519.out.azhimalayanvh.com/Firmware/Flyme/m6_note/8.0.5.0/cn/20200709154303/b68e83cd/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=35ef6026b1ab2250cc0d8b9d2eba9ea2a9cbaffd2da6cbef&ali_redirect_ex_tmining_ts=1612345644&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
