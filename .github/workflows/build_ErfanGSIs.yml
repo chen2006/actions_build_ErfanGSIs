@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ip370798519.out.azhimalayanvh.com/Firmware/Flyme/m6_note/8.0.5.0/cn/20200709154303/b68e83cd/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=35ef6026b1ab2250cc0d8b9d2eba9ea2a9cbaffd2da6cbef&ali_redirect_ex_tmining_ts=1612345644&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
-  ROM_NAME: Flyme
+  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QFGCNXM/miui_LAVENDER_V12.0.2.0.QFGCNXM_722667568f_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
